@@ -1,7 +1,7 @@
 /* ввел ли пользователь пароль */
 window.onload = function() {
   if(localStorage.getItem('pwd') != 'true') {
-    window.location.assign('index');
+    window.location.assign('https://markjoulith.com/');
   }
 }
 
