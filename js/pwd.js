@@ -6,11 +6,11 @@ window.onload = function() {
 
     if (pwd == scan){
       localStorage.pwd = true;
-      window.location.assign('happy-bd.html');
+      window.location.assign('happy-bd');
     } else {
       location.reload();
     }
   } else {
-    window.location.assign('happy-bd.html');
+    window.location.assign('happy-bd');
   }
 }
