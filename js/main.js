@@ -1,7 +1,6 @@
 /* ввел ли пользователь пароль */
 window.onload = function() {
   if(localStorage.getItem('pwd') != 'true') {
-    alert('updated');
     window.location.assign('index');
   }
 }
